@@ -26755,7 +26755,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8271240401110875357, guid: eadea9d018d243c4b822bf89439e1be9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1305922470}
   m_SourcePrefab: {fileID: 100100000, guid: eadea9d018d243c4b822bf89439e1be9, type: 3}
 --- !u!1 &765110596 stripped
 GameObject:
@@ -27019,7 +27022,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &918570504
 Transform:
   m_ObjectHideFlags: 0
@@ -27104,7 +27107,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &953472479
 Transform:
   m_ObjectHideFlags: 0
@@ -27186,9 +27189,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RealLight
   lyhty: {fileID: 1573977327}
   realLight: {fileID: 953472480}
-  dimIntensity: 3
-  midIntensity: 6
-  brightIntensity: 10
+  secondaryLight: {fileID: 1018279982}
+  dimIntensity: 1.5
+  dimRadius: 3
+  midIntensity: 1.5
+  midRadius: 5
+  brightIntensity: 1.5
+  brightRadius: 8
 --- !u!1 &983061285
 GameObject:
   m_ObjectHideFlags: 0
@@ -30639,7 +30646,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1018279982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30707,6 +30714,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1678554525}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1305922464 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8271240401110875357, guid: eadea9d018d243c4b822bf89439e1be9, type: 3}
+  m_PrefabInstance: {fileID: 556656387}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1305922470
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305922464}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8f32e91a93619674ebe484e50a9b9ba7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1549906832
 GameObject:
   m_ObjectHideFlags: 0
@@ -30889,6 +30923,10 @@ PrefabInstance:
     - target: {fileID: 5745264015913008153, guid: 41715d4f6681fe34ca4c15281b9341fc, type: 3}
       propertyPath: m_Color.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5745264015913008153, guid: 41715d4f6681fe34ca4c15281b9341fc, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5745264015913008153, guid: 41715d4f6681fe34ca4c15281b9341fc, type: 3}
       propertyPath: m_SortingOrder
