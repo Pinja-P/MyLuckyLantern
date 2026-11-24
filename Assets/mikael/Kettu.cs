@@ -3,7 +3,7 @@ using UnityEngine;
 public class Kettu : MonoBehaviour
 {
     public float moveSpeed = 2f;
-    public float waitTime = 2f; 
+    public float waitTime = 2f; // kuinka kauan kettu odottaa
 
     public GameObject PointA;
     public GameObject PointB;
@@ -12,7 +12,7 @@ public class Kettu : MonoBehaviour
     public bool Chase = false;
 
     private Transform currentTarget;
-    private float waitCounter; 
+    private float waitCounter; // laskee kuinka kauan kettu on odottanut
 
     void Start()
     {

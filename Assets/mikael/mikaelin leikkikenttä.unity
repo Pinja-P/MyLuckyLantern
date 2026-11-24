@@ -316,7 +316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2602499978958261702, guid: 46a60e9f531bc4e4e807b1561252b3b9, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2602499978958261702, guid: 46a60e9f531bc4e4e807b1561252b3b9, type: 3}
       propertyPath: m_TagString
@@ -720,7 +720,7 @@ GameObject:
   - component: {fileID: 1354225991}
   - component: {fileID: 1354225992}
   m_Layer: 0
-  m_Name: "N\xE4k\xF6kentt\xE4"
+  m_Name: FOV
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1023,7 +1023,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1396852878
 Transform:
   m_ObjectHideFlags: 0
@@ -1443,7 +1443,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8778348400509540676, guid: 306362a7ce0045448b70dbdd8a896468, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
