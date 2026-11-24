@@ -30976,6 +30976,34 @@ PrefabInstance:
       propertyPath: m_Actions
       value: 
       objectReference: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    - target: {fileID: 6507154773191574894, guid: 41715d4f6681fe34ca4c15281b9341fc, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507154773191574894, guid: 41715d4f6681fe34ca4c15281b9341fc, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507154773191574894, guid: 41715d4f6681fe34ca4c15281b9341fc, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7918941524784970553, guid: 811204906a568a9458e1092317c0f7a0, type: 3}
+    - target: {fileID: 6507154773191574894, guid: 41715d4f6681fe34ca4c15281b9341fc, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507154773191574894, guid: 41715d4f6681fe34ca4c15281b9341fc, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PickUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507154773191574894, guid: 41715d4f6681fe34ca4c15281b9341fc, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FuelPickup, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507154773191574894, guid: 41715d4f6681fe34ca4c15281b9341fc, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7313970970598996583, guid: 41715d4f6681fe34ca4c15281b9341fc, type: 3}
       propertyPath: settingsUI
       value: 

@@ -105,6 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f458365688b2a7e4b882d0d9a89adae9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FuelPickup
+  fuelAmount: 50
 --- !u!70 &1802633435583234810
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

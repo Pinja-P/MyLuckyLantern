@@ -52,6 +52,7 @@ public class Lepakko_chase : MonoBehaviour
         goAwayBat = exitpoint;
         if (Lyhty.instance != null && Lyhty.instance.brightnessLevel >= 3)
         {
+            StopChasing();
             return;
         }
         isStopped = false;
