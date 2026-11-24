@@ -62,10 +62,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void BatCarry()
     {
-        if (batCarry)
-        {
-            CameraScript.StopCamera();
-        }
+        
         if (batCarry)
         {
 

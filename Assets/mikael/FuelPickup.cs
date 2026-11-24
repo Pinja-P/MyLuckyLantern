@@ -25,6 +25,7 @@ public class FuelPickup : MonoBehaviour
         {
             playerLyhty = other.GetComponent<Lyhty>();
             pickupAllowed = true;
+            Debug.Log("pickupAllowed set to true");
             Debug.Log("Player entered trigger");
         }
     }

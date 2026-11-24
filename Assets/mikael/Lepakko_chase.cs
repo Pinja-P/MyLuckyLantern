@@ -34,6 +34,11 @@ public class Lepakko_chase : MonoBehaviour
             {
                 transform.position = Vector2.MoveTowards(transform.position, goAwayBat.transform.position, speed * Time.deltaTime);
             }
+
+            if (Vector2.Distance(transform.position, goAwayBat.transform.position) < 0.1f)
+            {
+                Destroy(gameObject);
+            }
         }
        if (isStopped)
         {
