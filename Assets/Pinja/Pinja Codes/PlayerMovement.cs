@@ -7,11 +7,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D playerRB;
 
-    // Camera
-    [SerializeField] private CinemachineCamera camA;
-    [SerializeField] private CinemachineCamera camB;
-    bool CameraA = true;
-    bool CameraB = false;
+    public Camera CameraScript;
 
     //Movement
     float moveSpeed;
@@ -20,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
 
     //Sneak
     public float sneakSpeed = 2f;
-    
+
     //BatCarry
     public bool batCarry = false;
     public GameObject batCarrier;
@@ -34,24 +30,26 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         playerRB.linearVelocity = moveInput * moveSpeed;
-        
-        BatCarry();
+
+        BatCarry(); // Checks if bat has caught player
     }
 
+    // Input System (Makes player able to move)
     public void Move(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();
     }
 
+    // Sneak if putton is held down
     public void Sneak(InputAction.CallbackContext context)
     {
-        if (context.performed && CameraA)
-         {
-             moveSpeed = sneakSpeed;
-             Debug.Log("Sneaking");
-         }
+        if (context.performed && !batCarry)
+        {
+            moveSpeed = sneakSpeed;
+            Debug.Log("Sneaking");
+        }
 
-        if (context.canceled)
+        if (context.canceled && !batCarry)
         {
             moveSpeed = walkSpeed;
             Debug.Log("Walking");
@@ -61,41 +59,16 @@ public class PlayerMovement : MonoBehaviour
 
     public void BatCarry()
     {
-        if (batCarry && CameraA)
+        if (batCarry)
         {
-            SwitchToCamB();
-            Debug.Log("Camera B");
+            CameraScript.StopCamera();
         }
         if (batCarry)
         {
-            
+
             transform.position = batCarrier.transform.position;
             return;
         }
-        
-    }
 
-    public void SwitchToCamA()
-    {
-        camA.Priority = 10;
-        camB.Priority = 5;
-        CameraA = true;
-        CameraB = false;
-
-        Debug.Log("Camera A");
-    }
-
-    public void SwitchToCamB()
-    {
-        camB.transform.position = playerRB.position;
-        camB.LookAt = null;
-        camB.Follow = null;
-        camB.Priority = 10;
-        camA.Priority = 5;
-
-        CameraA = false;
-        CameraB = true;
-
-        Debug.Log("Camera B");
     }
 }
