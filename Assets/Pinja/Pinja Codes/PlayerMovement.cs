@@ -1,12 +1,14 @@
+using TMPro;
 using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-
+    // Player
     private Rigidbody2D playerRB;
 
+    // Connections
     public Camera CameraScript;
 
     //Movement
@@ -20,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     //BatCarry
     public bool batCarry = false;
     public GameObject batCarrier;
+
 
     void Start()
     {
@@ -59,16 +62,14 @@ public class PlayerMovement : MonoBehaviour
 
     public void BatCarry()
     {
-        if (batCarry)
-        {
-            CameraScript.StopCamera();
-        }
+        
         if (batCarry)
         {
 
             transform.position = batCarrier.transform.position;
             return;
         }
-
     }
+
+   
 }

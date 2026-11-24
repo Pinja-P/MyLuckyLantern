@@ -26,8 +26,8 @@ public class DeathManager : MonoBehaviour
 
             lastDeathTime = Time.time;
          }
-        if (collision.CompareTag("Death") && playerMov.batCarry && Time.time - lastDeathTime > 2)
-        {
+         if (collision.CompareTag("Death") && playerMov.batCarry && Time.time - lastDeathTime > 2)
+         {
             Debug.Log("You Died By Bat");
             playerMov.batCarry = false;
             lepakko.StopChasing();
@@ -35,7 +35,7 @@ public class DeathManager : MonoBehaviour
             transform.position = respawnPoint.position;
 
             lastDeathTime = Time.time;
-        }
+         }
     } 
 
 }
