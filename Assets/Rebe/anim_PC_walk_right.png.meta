@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: ba3656ea75691ce4caceb65bf6ebdcf5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -31499824050038803
+    second: anim_PC_walk_right_0
+  - first:
+      213: 7075875893545963680
+    second: anim_PC_walk_right_1
+  - first:
+      213: -5640754626049144651
+    second: anim_PC_walk_right_2
+  - first:
+      213: -6257777285648987144
+    second: anim_PC_walk_right_3
+  - first:
+      213: -1993379590078332978
+    second: anim_PC_walk_right_4
+  - first:
+      213: 4308881730753907304
+    second: anim_PC_walk_right_5
+  - first:
+      213: -9120287632067174160
+    second: anim_PC_walk_right_6
+  - first:
+      213: 3289869988002266523
+    second: anim_PC_walk_right_7
+  - first:
+      213: -9084638712731748579
+    second: anim_PC_walk_right_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 340
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: anim_PC_walk_right_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1711
+        width: 693
+        height: 689
+      alignment: 9
+      pivot: {x: 0.57, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de79201b317109ff0800000000000000
+      internalID: -31499824050038803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_PC_walk_right_1
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1710
+        width: 686
+        height: 681
+      alignment: 9
+      pivot: {x: 0.57, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a09e85b2af823260800000000000000
+      internalID: 7075875893545963680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_PC_walk_right_2
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 1708
+        width: 674
+        height: 697
+      alignment: 9
+      pivot: {x: 0.57, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b80339bd8308b1b0800000000000000
+      internalID: -5640754626049144651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_PC_walk_right_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 893
+        width: 661
+        height: 694
+      alignment: 9
+      pivot: {x: 0.57, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb426db6b8e729a0800000000000000
+      internalID: -6257777285648987144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_PC_walk_right_4
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 891
+        width: 680
+        height: 688
+      alignment: 9
+      pivot: {x: 0.57, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecffddef2d71654e0800000000000000
+      internalID: -1993379590078332978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_PC_walk_right_5
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 886
+        width: 691
+        height: 686
+      alignment: 9
+      pivot: {x: 0.57, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ac1ccca193ccb30800000000000000
+      internalID: 4308881730753907304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_PC_walk_right_6
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 53
+        width: 695
+        height: 707
+      alignment: 9
+      pivot: {x: 0.57, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f06f3158ba3e6180800000000000000
+      internalID: -9120287632067174160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_PC_walk_right_7
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 60
+        width: 690
+        height: 699
+      alignment: 9
+      pivot: {x: 0.57, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9df718d257f7ad20800000000000000
+      internalID: 3289869988002266523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_PC_walk_right_8
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 76
+        width: 697
+        height: 680
+      alignment: 9
+      pivot: {x: 0.57, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17bcd62931ece180800000000000000
+      internalID: -9084638712731748579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 23b64f97131f2fa41bdc312e71471650
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      anim_PC_walk_right_0: -31499824050038803
+      anim_PC_walk_right_1: 7075875893545963680
+      anim_PC_walk_right_2: -5640754626049144651
+      anim_PC_walk_right_3: -6257777285648987144
+      anim_PC_walk_right_4: -1993379590078332978
+      anim_PC_walk_right_5: 4308881730753907304
+      anim_PC_walk_right_6: -9120287632067174160
+      anim_PC_walk_right_7: 3289869988002266523
+      anim_PC_walk_right_8: -9084638712731748579
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
