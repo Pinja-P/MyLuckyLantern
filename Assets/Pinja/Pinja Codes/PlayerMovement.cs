@@ -7,8 +7,11 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D playerRB;
 
+    // Camera
     [SerializeField] private CinemachineCamera camA;
     [SerializeField] private CinemachineCamera camB;
+    bool CameraA = true;
+    bool CameraB = false;
 
     //Movement
     float moveSpeed;
@@ -42,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Sneak(InputAction.CallbackContext context)
     {
-        if (context.performed)
+        if (context.performed && CameraA)
          {
              moveSpeed = sneakSpeed;
              Debug.Log("Sneaking");
@@ -58,9 +61,10 @@ public class PlayerMovement : MonoBehaviour
 
     public void BatCarry()
     {
-        if (batCarry)
+        if (batCarry && CameraA)
         {
             SwitchToCamB();
+            Debug.Log("Camera B");
         }
         if (batCarry)
         {
@@ -75,6 +79,10 @@ public class PlayerMovement : MonoBehaviour
     {
         camA.Priority = 10;
         camB.Priority = 5;
+        CameraA = true;
+        CameraB = false;
+
+        Debug.Log("Camera A");
     }
 
     public void SwitchToCamB()
@@ -84,5 +92,10 @@ public class PlayerMovement : MonoBehaviour
         camB.Follow = null;
         camB.Priority = 10;
         camA.Priority = 5;
+
+        CameraA = false;
+        CameraB = true;
+
+        Debug.Log("Camera B");
     }
 }
