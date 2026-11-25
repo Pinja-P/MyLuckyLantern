@@ -62,14 +62,18 @@ public class PlayerMovement : MonoBehaviour
 
     public void BatCarry()
     {
-        
         if (batCarry)
         {
+            if (batCarrier == null)
+            {
+                batCarry = false;
+                return;
+            }
 
             transform.position = batCarrier.transform.position;
             return;
         }
-    }
 
-   
+
+    }
 }
