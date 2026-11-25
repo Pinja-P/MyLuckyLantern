@@ -64,6 +64,10 @@ public class PlayerMovement : MonoBehaviour
     {
         if (batCarry)
         {
+            CameraScript.StopCamera();
+        }
+        if (batCarry)
+        {
             if (batCarrier == null)
             {
                 batCarry = false;
