@@ -23,6 +23,10 @@ public class PlayerMovement : MonoBehaviour
     public bool batCarry = false;
     public GameObject batCarrier;
 
+    // Animation
+    public Animator animator;
+    bool isFacingRight = true;
+
 
     void Start()
     {
@@ -35,6 +39,10 @@ public class PlayerMovement : MonoBehaviour
         playerRB.linearVelocity = moveInput * moveSpeed;
 
         BatCarry(); // Checks if bat has caught player
+
+        
+        Flip();
+        HandleAnimations();
     }
 
     // Input System (Makes player able to move)
@@ -77,7 +85,24 @@ public class PlayerMovement : MonoBehaviour
             transform.position = batCarrier.transform.position;
             return;
         }
+    }
 
+    void HandleAnimations()
+    {
+        animator.SetBool("isIdle", Mathf.Abs(moveInput.x) < 0.1 && Mathf.Abs(moveInput.y) < 0.1);
+       // animator.SetBool("isWalking", Mathf.Abs(moveInput.x) > 0.1f);
+       // animator.SetBool("isWalking", Mathf.Abs(moveInput.y) > 0.1f);
+    }
 
+    private void Flip()
+    {
+        if(moveInput.x > 0.1f )
+        {
+            isFacingRight = true;
+        }
+        else if (moveInput.x < 0.1f)
+        {
+            isFacingRight = false;
+        }
     }
 }
