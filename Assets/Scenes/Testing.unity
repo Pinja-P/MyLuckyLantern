@@ -30909,6 +30909,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1617637705934004783, guid: 41715d4f6681fe34ca4c15281b9341fc, type: 3}
+      propertyPath: dimSprite
+      value: 
+      objectReference: {fileID: 4961600990750340091, guid: ee77ebcda02b78d429cd9005e09e5c64, type: 3}
+    - target: {fileID: 1617637705934004783, guid: 41715d4f6681fe34ca4c15281b9341fc, type: 3}
+      propertyPath: midSprite
+      value: 
+      objectReference: {fileID: 5743954603887176938, guid: 6bd143f4cd3c7a146a8a99d1486a8097, type: 3}
+    - target: {fileID: 1617637705934004783, guid: 41715d4f6681fe34ca4c15281b9341fc, type: 3}
+      propertyPath: brightSprite
+      value: 
+      objectReference: {fileID: 3570962670003585754, guid: aacbfa6a0b778e74ab67a1668a5583f9, type: 3}
+    - target: {fileID: 1617637705934004783, guid: 41715d4f6681fe34ca4c15281b9341fc, type: 3}
       propertyPath: lanternRenderer
       value: 
       objectReference: {fileID: 1678554521}

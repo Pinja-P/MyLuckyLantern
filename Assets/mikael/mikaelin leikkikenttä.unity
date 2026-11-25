@@ -735,8 +735,8 @@ Transform:
   m_GameObject: {fileID: 1354225989}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 3.38, y: 0, z: 0}
-  m_LocalScale: {x: 1.15, y: 5, z: 1}
+  m_LocalPosition: {x: 4.57, y: -0.024, z: 0}
+  m_LocalScale: {x: 2, y: 7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1394550168}
@@ -1006,6 +1006,7 @@ MonoBehaviour:
   waitTime: 5
   PointA: {fileID: 920625485}
   PointB: {fileID: 1617327524}
+  FOV: {fileID: 1354225989}
   patrol: 1
   Chase: 0
 --- !u!1 &1396852877

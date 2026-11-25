@@ -87,11 +87,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Lyhty
   brightnessLevel: 2
-  dimSprite: {fileID: -5458909772797610389, guid: 879ef531dfd522345a22e8e8ae3e33ee, type: 3}
+  dimSprite: {fileID: 4961600990750340091, guid: ee77ebcda02b78d429cd9005e09e5c64, type: 3}
   dimBurnMultiplier: 0.5
-  midSprite: {fileID: 2913527605281450189, guid: ff61412fda2ab5c488b1e52b246ac501, type: 3}
+  midSprite: {fileID: 5743954603887176938, guid: 6bd143f4cd3c7a146a8a99d1486a8097, type: 3}
   midBurnMultiplier: 1
-  brightSprite: {fileID: 733750160269335968, guid: 23609cc882a60e244bb12f1b85135e66, type: 3}
+  brightSprite: {fileID: 3570962670003585754, guid: aacbfa6a0b778e74ab67a1668a5583f9, type: 3}
   brightBurnMultiplier: 2
   fuelCapacity: 100
   fuelBurnout: 1
