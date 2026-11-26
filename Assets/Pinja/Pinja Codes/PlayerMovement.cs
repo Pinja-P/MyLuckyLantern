@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
 
     // Animation
     public Animator animator;
-    bool isFacingRight = true;
+    float facingDirection = 1;
 
 
     void Start()
@@ -40,9 +40,9 @@ public class PlayerMovement : MonoBehaviour
 
         BatCarry(); // Checks if bat has caught player
 
-        
-        Flip();
-        HandleAnimations();
+        Flip(); // Flips the player sprite
+
+        HandleAnimations(); 
     }
 
     // Input System (Makes player able to move)
@@ -90,19 +90,20 @@ public class PlayerMovement : MonoBehaviour
     void HandleAnimations()
     {
         animator.SetBool("isIdle", Mathf.Abs(moveInput.x) < 0.1 && Mathf.Abs(moveInput.y) < 0.1);
-       // animator.SetBool("isWalking", Mathf.Abs(moveInput.x) > 0.1f);
-       // animator.SetBool("isWalking", Mathf.Abs(moveInput.y) > 0.1f);
+        animator.SetBool("isWalking", Mathf.Abs(moveInput.x) > 0.1f || Mathf.Abs(moveInput.y) > 0.1f);
     }
 
     private void Flip()
     {
         if(moveInput.x > 0.1f )
         {
-            isFacingRight = true;
+            facingDirection = 1;
         }
-        else if (moveInput.x < 0.1f)
+        else if (moveInput.x < -0.1f)
         {
-            isFacingRight = false;
+            facingDirection = -1;
         }
+
+        transform.localScale = new Vector3(facingDirection, 1, 1);
     }
 }
