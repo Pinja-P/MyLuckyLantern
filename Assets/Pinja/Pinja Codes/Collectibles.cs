@@ -25,4 +25,5 @@ public class Collectibles : MonoBehaviour
             AcornCounter.SetActive(true);
         }
     }
+
 }
