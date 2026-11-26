@@ -75,6 +75,7 @@ MonoBehaviour:
   lepakko: {fileID: 5880262693532839053, guid: 7d0151456df321c4d9311570a2fa6478, type: 3}
   playerMov: {fileID: 8277337798894357686}
   CameraScript: {fileID: 4746231514641916988}
+  DeathScreen: {fileID: 4964067095702172593, guid: c6b642959a5c1eb4f8a45b7767e8f27c, type: 3}
 --- !u!114 &6876898461772707664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,7 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PauseMenu
   GameIsPaused: 0
-  pauseMenuUI: {fileID: 0}
+  pauseMenuUI: {fileID: 751693934791544257, guid: 320f887d7a55f7b4bb1b2c4d97599dcb, type: 3}
   menuSelection: {fileID: 0}
   settingsUI: {fileID: 0}
 --- !u!114 &3065609921572902669
@@ -176,7 +177,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -3336651653256611827, guid: fe13206ee9624a24195af0b16910242d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -392,8 +393,8 @@ BoxCollider2D:
   m_Offset: {x: 0.036876023, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.57, y: 0.05}
+    oldSize: {x: 2.0029411, y: 1.9882352}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
