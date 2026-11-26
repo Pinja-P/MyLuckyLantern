@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Camera : MonoBehaviour
 {
-    //public Camera CameraScript;
 
     public GameObject Player;
 
@@ -28,28 +27,28 @@ public class Camera : MonoBehaviour
 
 
 
-  /*  public void SwitchToCamA()
-    {
-        camA.Priority = 10;
-        camB.Priority = 5;
-        CameraA = true;
-        CameraB = false;
+    /*  public void SwitchToCamA()
+      {
+          camA.Priority = 10;
+          camB.Priority = 5;
+          CameraA = true;
+          CameraB = false;
 
-        Debug.Log("Camera A");
-    }
+          Debug.Log("Camera A");
+      }
 
-    public void SwitchToCamB()
-    {
-        camB.transform.position = playerRB.position;
-        camB.LookAt = null;
-        camB.Follow = null;
-        camB.Priority = 10;
-        camA.Priority = 5;
+      public void SwitchToCamB()
+      {
+          camB.transform.position = playerRB.position;
+          camB.LookAt = null;
+          camB.Follow = null;
+          camB.Priority = 10;
+          camA.Priority = 5;
 
-        CameraA = false;
-        CameraB = true;
+          CameraA = false;
+          CameraB = true;
 
-        Debug.Log("Camera B");
-    } */
+          Debug.Log("Camera B");
+      } */
 
 }
