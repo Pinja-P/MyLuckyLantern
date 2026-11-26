@@ -7,7 +7,7 @@ public class DeathManager : MonoBehaviour
 
     public Lepakko_chase lepakko;
     public PlayerMovement playerMov;
-    public Camera CameraScript;
+    public Kamera CameraScript;
 
     float lastDeathTime;
 

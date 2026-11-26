@@ -2,7 +2,7 @@ using Unity.Cinemachine;
 using UnityEditor.Rendering;
 using UnityEngine;
 
-public class Camera : MonoBehaviour
+public class Kamera : MonoBehaviour
 {
 
     public GameObject Player;

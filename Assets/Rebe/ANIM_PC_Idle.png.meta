@@ -18,7 +18,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 340
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,7 +81,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -118,19 +118,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -138,12 +125,12 @@ TextureImporter:
       name: ANIM_PC_Idle_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 34
-        width: 683
-        height: 678
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 21
+        y: 35
+        width: 681
+        height: 676
+      alignment: 9
+      pivot: {x: 0.57, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -160,12 +147,12 @@ TextureImporter:
       name: ANIM_PC_Idle_1
       rect:
         serializedVersion: 2
-        x: 733
-        y: 36
-        width: 679
-        height: 675
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 734
+        y: 37
+        width: 677
+        height: 673
+      alignment: 9
+      pivot: {x: 0.57, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -182,12 +169,12 @@ TextureImporter:
       name: ANIM_PC_Idle_2
       rect:
         serializedVersion: 2
-        x: 1442
-        y: 32
-        width: 683
-        height: 678
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1443
+        y: 33
+        width: 681
+        height: 676
+      alignment: 9
+      pivot: {x: 0.57, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,12 +191,12 @@ TextureImporter:
       name: ANIM_PC_Idle_3
       rect:
         serializedVersion: 2
-        x: 2156
-        y: 32
-        width: 689
-        height: 676
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2157
+        y: 33
+        width: 687
+        height: 674
+      alignment: 9
+      pivot: {x: 0.57, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: eb737a99afb3d654d9f46a008560994b
     internalID: 0
     vertices: []
     indices: 
@@ -234,7 +221,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":712.0,"y":720.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      - key: SpriteEditor.SliceOnImport
+        value: False
     nameFileIdTable:
       ANIM_PC_Idle_0: -3336651653256611827
       ANIM_PC_Idle_1: -2000050064571490792

@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D playerRB;
 
     // Connections
-    public Camera CameraScript;
+    public Kamera CameraScript;
 
     //Movement
     float moveSpeed;
