@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Kettu : MonoBehaviour
@@ -7,7 +8,7 @@ public class Kettu : MonoBehaviour
 
     public GameObject PointA;
     public GameObject PointB;
-    public GameObject FOV;
+
     public GameObject targetPlayer;
 
     public bool patrol = true;
@@ -106,7 +107,6 @@ public class Kettu : MonoBehaviour
         currentTarget = (distToA < distToB) ? PointA.transform : PointB.transform;
     }
 
-
-
+    
 }
 
