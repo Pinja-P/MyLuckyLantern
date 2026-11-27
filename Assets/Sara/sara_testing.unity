@@ -30818,6 +30818,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1291400645 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 751693934791544257, guid: 320f887d7a55f7b4bb1b2c4d97599dcb, type: 3}
+  m_PrefabInstance: {fileID: 481001519}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1305922464 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8271240401110875357, guid: eadea9d018d243c4b822bf89439e1be9, type: 3}
@@ -30947,6 +30952,10 @@ PrefabInstance:
       propertyPath: settingsUI
       value: 
       objectReference: {fileID: 765110596}
+    - target: {fileID: 4149939504833330764, guid: 700c92e8aca523b46864701b10ddff4c, type: 3}
+      propertyPath: pauseMenuUI
+      value: 
+      objectReference: {fileID: 1291400645}
     - target: {fileID: 4149939504833330764, guid: 700c92e8aca523b46864701b10ddff4c, type: 3}
       propertyPath: menuSelection
       value: 
