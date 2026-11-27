@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
     // Connections
     public Kamera CameraScript;
+    public Lyhty lyhtyScript;
 
     //Movement
     float moveSpeed;
@@ -25,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
 
     // Animation
     public Animator animator;
+    public Animator lanterAnimator;
     float facingDirection = 1;
 
 
@@ -91,6 +93,10 @@ public class PlayerMovement : MonoBehaviour
     {
         animator.SetBool("isIdle", Mathf.Abs(moveInput.x) < 0.1 && Mathf.Abs(moveInput.y) < 0.1);
         animator.SetBool("isWalking", Mathf.Abs(moveInput.x) > 0.1f || Mathf.Abs(moveInput.y) > 0.1f);
+
+        lanterAnimator.SetBool("LightMed", lyhtyScript.brightnessLevel == 2);
+        lanterAnimator.SetBool("LightDim", lyhtyScript.brightnessLevel == 1);
+        lanterAnimator.SetBool("LightBri", lyhtyScript.brightnessLevel == 3);
     }
 
     private void Flip()

@@ -104,7 +104,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 5743954603887176938, guid: 6bd143f4cd3c7a146a8a99d1486a8097, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -112,7 +112,7 @@ SpriteRenderer:
   m_Size: {x: 7.61, y: 7.5705185}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2655319681337951097
 GameObject:
@@ -169,11 +169,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   CameraScript: {fileID: 4746231514641916988}
+  lyhtyScript: {fileID: 6876898461772707664}
   walkSpeed: 5
   sneakSpeed: 3
   batCarry: 0
   batCarrier: {fileID: 0}
   animator: {fileID: 2780566973176649191}
+  lanterAnimator: {fileID: 6130180438587243674}
 --- !u!114 &8353898996328865575
 MonoBehaviour:
   m_ObjectHideFlags: 0
