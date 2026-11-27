@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6c63efd555d50b64dacf402c2723baa5
+guid: 00236f42fa3290348883b9fac7b9c460
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2271993552551178474
-    second: SnowpileSmall_PH_0
+      213: 2021361027253147496
+    second: Rock_Big_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -50,7 +50,7 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 9
-  spritePivot: {x: 0.5, y: 0.46}
+  spritePivot: {x: 0.5, y: 0.2}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SnowpileSmall_PH_0
+      name: Rock_Big_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 312
-        height: 93
+        width: 200
+        height: 104
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,15 +115,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae07ac7391eb78f10800000000000000
-      internalID: 2271993552551178474
+      spriteID: 8671e3805215d0c10800000000000000
+      internalID: 2021361027253147496
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
     customData: 
-    physicsShape: []
+    physicsShape:
+    - - {x: -42, y: -37}
+      - {x: 89, y: -30}
+      - {x: 2, y: -20}
+      - {x: -86, y: -30}
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
     internalID: 1537655665
@@ -135,7 +139,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SnowpileSmall_PH_0: 2271993552551178474
+      Rock_Big_0: 2021361027253147496
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
