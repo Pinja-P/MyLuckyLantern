@@ -24,6 +24,8 @@ public class Lyhty : MonoBehaviour
     public float fuelBurnout = 1f;
     public float currentFuel;
     internal static Lyhty instance;
+    
+
 
     private void Awake()
     {

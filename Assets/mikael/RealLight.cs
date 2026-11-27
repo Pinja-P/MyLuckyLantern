@@ -18,7 +18,7 @@ public class RealLight : MonoBehaviour
 
     public float brightIntensity = 1.5f;
     public float brightRadius = 8f;
-
+    public GameObject Animator;
     private int lastBrightnessLevel = -1;
 
     void Start()
@@ -42,6 +42,7 @@ public class RealLight : MonoBehaviour
 
         if (realLight != null) realLight.enabled = hasFuel;
         if (secondaryLight != null) secondaryLight.enabled = hasFuel;
+        if(Animator != null) Animator.SetActive(hasFuel);
 
         if (!hasFuel)
         {
