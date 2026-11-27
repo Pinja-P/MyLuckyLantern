@@ -194,7 +194,7 @@ GameObject:
   - component: {fileID: 252185241}
   - component: {fileID: 252185240}
   m_Layer: 0
-  m_Name: Closed Sprite Shape
+  m_Name: FOV
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -677,6 +677,10 @@ PrefabInstance:
     - target: {fileID: 7847469183667931016, guid: 700c92e8aca523b46864701b10ddff4c, type: 3}
       propertyPath: m_Name
       value: Player (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7847469183667931016, guid: 700c92e8aca523b46864701b10ddff4c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2067,7 +2071,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 605936760363288898, guid: 811204906a568a9458e1092317c0f7a0, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8497603999162275116, guid: 811204906a568a9458e1092317c0f7a0, type: 3}
       propertyPath: m_LocalPosition.x
