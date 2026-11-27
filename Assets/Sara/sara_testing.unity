@@ -26373,26 +26373,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1694607423825235341, guid: 320f887d7a55f7b4bb1b2c4d97599dcb, type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 519420031}
-    - target: {fileID: 1694607423825235341, guid: 320f887d7a55f7b4bb1b2c4d97599dcb, type: 3}
-      propertyPath: m_RenderMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1694607423825235341, guid: 320f887d7a55f7b4bb1b2c4d97599dcb, type: 3}
-      propertyPath: m_SortingOrder
-      value: 55
-      objectReference: {fileID: 0}
-    - target: {fileID: 1694607423825235341, guid: 320f887d7a55f7b4bb1b2c4d97599dcb, type: 3}
-      propertyPath: m_SortingLayerID
-      value: 657620339
-      objectReference: {fileID: 0}
-    - target: {fileID: 3695202412856407876, guid: 320f887d7a55f7b4bb1b2c4d97599dcb, type: 3}
-      propertyPath: m_UiScaleMode
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4567972886743730013, guid: 320f887d7a55f7b4bb1b2c4d97599dcb, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -30961,7 +30941,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4149939504833330764, guid: 700c92e8aca523b46864701b10ddff4c, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4149939504833330764, guid: 700c92e8aca523b46864701b10ddff4c, type: 3}
       propertyPath: settingsUI
