@@ -113,13 +113,5 @@ public class PlayerMovement : MonoBehaviour
         transform.localScale = new Vector3(facingDirection, 1, 1);
     }
 
-    public void PausePlayer()
-    {
-        moveSpeed = 0;
-    }
-
-    public void RestartPlayer()
-    {
-        moveSpeed = walkSpeed;
-    }
+   
 }
