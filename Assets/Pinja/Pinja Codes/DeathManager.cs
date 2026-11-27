@@ -8,6 +8,7 @@ public class DeathManager : MonoBehaviour
     public Lepakko_chase lepakko;
     public PlayerMovement playerMov;
     public Kamera CameraScript;
+    public PauseMenu pauseMenu;
 
     float lastDeathTime;
 
@@ -31,6 +32,8 @@ public class DeathManager : MonoBehaviour
             transform.position = respawnPoint.position; // Moves player to checkpoint
 
             lastDeathTime = Time.time;
+
+            PausePlayer();
         }
 
          if (collision.CompareTag("Death") && playerMov.batCarry && Time.time - lastDeathTime > 1)
@@ -46,6 +49,8 @@ public class DeathManager : MonoBehaviour
             transform.position = respawnPoint.position; // Moves player to checkpoint
 
             lastDeathTime = Time.time;
+
+            PausePlayer();
          }
     } 
 
@@ -53,6 +58,19 @@ public class DeathManager : MonoBehaviour
     public void OnClickTryAgain()
     {
         DeathScreen.SetActive(false); // Makes death screen menu invisble
+        RestartPlayer();
+    }
+
+    public void PausePlayer()
+    {
+        Time.timeScale = 0f;
+        pauseMenu.GameIsPaused = true;
+    }
+
+    public void RestartPlayer()
+    {
+        Time.timeScale = 1f;
+        pauseMenu.GameIsPaused = false;
     }
 
 }
