@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: StoneSmall_PH
+  m_Name: Rock_Med
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 21300000, guid: 578002acee5382846a2b6a9ab6630a20, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bce3a1a0a80a2454dbc153905cf7eb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
