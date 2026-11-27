@@ -658,6 +658,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 1.97
       objectReference: {fileID: 0}
+    - target: {fileID: 6130180438587243674, guid: 700c92e8aca523b46864701b10ddff4c, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6249318550903166540, guid: 700c92e8aca523b46864701b10ddff4c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.57
@@ -666,6 +670,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 1.01
       objectReference: {fileID: 0}
+    - target: {fileID: 6876898461772707664, guid: 700c92e8aca523b46864701b10ddff4c, type: 3}
+      propertyPath: Animator
+      value: 
+      objectReference: {fileID: 2090124845}
     - target: {fileID: 7847469183667931016, guid: 700c92e8aca523b46864701b10ddff4c, type: 3}
       propertyPath: m_Name
       value: Player (1)
@@ -1261,12 +1269,13 @@ MonoBehaviour:
   lyhty: {fileID: 607838287}
   realLight: {fileID: 953472480}
   secondaryLight: {fileID: 1018279982}
-  dimIntensity: 0.5
+  dimIntensity: 1.5
   dimRadius: 3
-  midIntensity: 1
+  midIntensity: 1.5
   midRadius: 5
   brightIntensity: 1.5
   brightRadius: 8
+  Animator: {fileID: 2090124845}
 --- !u!1 &1018279981
 GameObject:
   m_ObjectHideFlags: 0
@@ -1867,6 +1876,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &2090124845 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1820766913056489055, guid: 700c92e8aca523b46864701b10ddff4c, type: 3}
+  m_PrefabInstance: {fileID: 607838278}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2137055149
 GameObject:
   m_ObjectHideFlags: 0
